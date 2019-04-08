@@ -12,4 +12,15 @@
 
   http://www.imparareaprogrammare.it
 */
-var time = 0;
+var time = 12560;
+var h = Math.round((time)/3600); // 3
+var timeH = 3600*h; // 10800
+var timeM = (time)-(timeH); // 1760
+var m = Math.round((timeM)/60); //29
+var timeS = 60*m; //1740
+var s = timeM-timeS; // 20
+
+console.log(`${time} secondi corrispondono a ${h} ore, ${m} minuti e ${s} secondi`);
+
+
+

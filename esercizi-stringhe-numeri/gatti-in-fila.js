@@ -17,3 +17,8 @@
 
   http://www.imparareaprogrammare.it
 */
+var nGatti = 44;
+var nGattiFila = 6;
+var nFile = console.log(nGatti/nGattiFila);
+var nGattiManca = console.log(nGatti%nGattiFila);
+console.log(nGattiManca.Math.ceil);

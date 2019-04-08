@@ -11,3 +11,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var nascita = 1991;
+var eta = (2018)-nascita;
+var aCento = (100)-eta;
+
+console.log(`Il soggetto ha ${eta} anni e gli mancano ${aCento} anni per arrivare a 100`);
+
