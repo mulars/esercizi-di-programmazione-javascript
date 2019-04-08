@@ -22,3 +22,5 @@
 
   http://www.imparareaprogrammare.it
 */
+var (1 = lunedì, 2 = martedì);
+console.log(2);
